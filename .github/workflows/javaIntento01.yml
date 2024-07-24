@@ -37,6 +37,8 @@ jobs:
       - name: Version de javac
         run: javac -version
 
+      - run: javac Calculadora.java
+      - run: java Calculadora
 
       - name: Listar contenido
         run: ls -la
