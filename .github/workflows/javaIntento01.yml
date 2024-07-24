@@ -34,6 +34,9 @@ jobs:
       - name: Version de java
         run: java -version
 
+      - name: Version de javac
+        run: javac -version
+
 
       - name: Listar contenido
         run: ls -la
