@@ -31,6 +31,8 @@ jobs:
           java-version: '11'
           distribution: 'temurin'
           architecture: x64
+      - name: Version de maven
+        run: mvn -v
       - name: Version de java
         run: java -version
 
